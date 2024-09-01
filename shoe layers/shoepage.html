@@ -1,0 +1,131 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Shoe E-Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Featured Shoes</h2>
+            <div class="shoe">
+                <img src="shoe1.jpg" alt="Shoe 1">
+                <h3>Stylish Sneakers</h3>
+                <p>$59.99</p>
+                <a href="products.html">Shop Now</a>
+            </div>
+            <div class="shoe">
+                <img src="shoe2.jpg" alt="Shoe 2">
+                <h3>Classic Boots</h3>
+                <p>$89.99</p>
+                <a href="products.html">Shop Now</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Shoe E-Commerce</p>
+    </footer>
+</body>
+</html>
+
+
+### *2. products.html (Product Page)*
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Shoe E-Commerce</title>
+    <link rel="stylesheet" href="shoepage.css">
+</head>
+<body>
+    <header>
+        <h1>Our Shoe Collection</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Shoes for Every Occasion</h2>
+            <div class="shoe">
+                <img src="shoe3.jpg" alt="Shoe 3">
+                <h3>Running Shoes</h3>
+                <p>$69.99</p>
+                <button onclick="addToCart('Running Shoes')">Add to Cart</button>
+            </div>
+            <div class="shoe">
+                <img src="shoe4.jpg" alt="Shoe 4">
+                <h3>Sandals</h3>
+                <p>$39.99</p>
+                <button onclick="addToCart('Sandals')">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Shoe E-Commerce</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+### *3. contact.html (Contact Page)*
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Shoe E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Shoe E-Commerce</p>
+    </footer>
+</body>
+</html>
+

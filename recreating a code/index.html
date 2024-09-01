@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title> bt digital </title>
+  <style>
+	*{
+	  margin: 0px;
+	  padding: 0px;
+	}
+	.menu{
+	  background: #098767;
+	  height: 290px;
+	}
+	.icon{
+	  color: #fff;
+	  font-size: 20px;
+	  padding-left: 20px;
+	  padding-top: 40px;
+	  padding-bottom: 30px;
+	  font-family:Courier New;
+	}
+	.descrip{
+	  text-align: center;
+	  color: #fff;
+	  font-size: 30px;
+	  padding-bottom: 17px;
+	  font-family: Courier New;
+	}
+	.com{
+	  text-align: center;
+	  color:#fff;
+	  font-size:24px;
+	  font-style: italic;
+	  padding-bottom: 17px;
+	}
+	.btn{
+	  margin-left: 60px;
+	  width: 70px;
+	  padding: 6px;
+	  border-radius: 20px;
+	  outline: none;
+	  border: 2px solid #098767;
+	  color: #fff;
+	  font-size: 18px;
+	  background: black;
+	}
+	.btn:hover{
+	  background: white;
+	  color: black;
+	}
+	.main {
+	  padding-left: 19px;
+	  padding-top: 20px;
+	}
+	.main1 {
+	  padding-bottom: 20px;
+	  font-family: Courier New;
+	}
+	.main2{
+	  font-family: Courier New;
+	  font-size: 20px;
+	}
+	.image-container{
+	  margin: 20px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-between;
+	  border-bottom: 2px solid black;
+	}
+	.image-description{
+	font-size: 20px;
+	font-family: Courier New;
+	}
+	.b{
+	  font-size: 20px;
+	  background:#098767;
+	  padding: 4px;
+	  margin: 20px;
+	  outline: none;
+	  width: 70px;
+	  color: #fff;
+	  border: 2px solid #098767;
+	  border-radius: 20px;
+	}
+	.b:hover{
+	  background: #fff;
+	  color: black;
+	}
+	.image-contain{
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  border-bottom: 2px solid black;
+	  margin: 20px;
+	}
+	.image-desc{
+	font-size: 17px;
+	font-family: Courier New;
+	
+	}
+	.bt{
+	  font-size: 20px;
+	  background:#098767;
+	  padding: 4px;
+	  margin: 20px;
+	  outline: none;
+	  width: 70px;
+	  color: #fff;
+	  border: 2px solid #098767;
+	  border-radius: 20px;
+	}
+	.bt:hover{
+	  background: white;
+	  color: black;
+	}
+	.image-contains{
+	  display: flex;
+	  align-items: center;
+	  justify-content:space-between;
+	  margin: 20px;
+	  border-bottom: 2px solid black;
+	}
+	.image-dc{
+	  font-family: Courier New;
+	}
+	.uni{
+   
+	  display: flex;
+	  align-items: center;
+	  justify-content:space-between;
+	  margin: 20px;
+	  border-bottom: 2px solid black;
+	}
+	.run{
+	  padding-left: 20px;
+	  padding-top: 20px;
+	  font-family: Courier New;
+	  font-weight: bold;
+	  margin: 15px;
+	}
+	.run-d{
+	  font-family: Courier New;
+	  margin: 17px;
+	}
+	.sneak{
+	  display: flex;
+	  justify-content:space-between;
+	  margin: 20px;
+	  border-bottom: 2px solid black;
+	}
+	  .sneak-dd{
+	  font-family: Courier New;
+	  margin: 17px;
+	  }
+	
+	.nike {
+	  display: flex;
+	  justify-content:space-between;
+	  margin: 20px;
+	  border-bottom: 2px solid black;
+		  
+	}
+	.nike-des{
+	  font-family: Courier New;
+	  margin: 17px;
+	}
+	.bttn{
+	  width: 200px;
+	  margin: 30px;
+	  padding: 10px;
+	  background: #098767;
+	  outline: none;
+	  font-size: 15px;
+	  color:#fff;
+	  border:2px solid #098767;
+	  border-radius: 20px;
+	}
+	.bttn:hover{
+	  background: white;
+	  color: black;
+	}
+	.pop{
+	  font-family: Courier New;
+	  padding-left: 30px;
+	}
+	.row{
+	  padding-top:20px;
+	  padding-left:20px;
+	  margin: 10px;
+	  font-family: Courier New;
+	}
+	.scroll-image{
+	  display: flex;
+	  overflow-x: auto;
+	}
+	.trend{
+	  font-family: Courier New;
+	  padding-left:20px;
+	  font-style: italic;
+	}
+	.trendd{
+	  padding-top: 27px;
+	  font-family: Courier New;
+	}
+	.image-set{
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	}
+	.desg{
+	  font-family: Courier New;
+	  padding-left:10px;
+	  margin-bottom: 30px;
+	}
+	.fem{
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  margin: 20px;
+	  border-bottom: 2px solid black;
+	}
+	.fe {
+
+
+
+
+
+
+
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  margin: 20px;
+	  border-bottom: 2px solid black;
+	  
+	}
+	.fe-dd{
+	  font-family: Courier New;
+	  font-size: 14px;
+	}
+  </style>
+  </head>
+  <body>
+	<div class="menu">
+	  <h3 class="icon"> SLWEARS</h3>
+	  <h1 class="descrip"> AMAZING PRODUCTS IN STOCK FOR YOU</h1>
+	  <p class="com"> For Comfortable You</p>
+	  
+	  <button class="btn">Shop </button>
+	  <button class="btn"> Explore</button>
+	  </div>
+	</div>
+	
+	
+	<div class="main">
+	  <h2 class="main1"> SCHOOL FOOTWEARS</h2>
+	  <p class="main2"> Everything you'll need for The Most Everyday Exciting day Of School!</p>
+	</div>
+
+	<div class="image-container">
+	  <img src="shoe  1.jpg" alt="pv" width="140px">
+	  <div class="image-description"> Designer Pairs<br> (Female)<br> <button class="b"> Shop</button>
+	  </div>
+	 </div>
+	 
+	 
+	 <div class="image-contain">
+	   <img src="shoe 2.jpg" alt="girl" width="200px">
+	   <div class="image-desc"> 
+	 <p class="image-descr"> Classic Pairs <br> (Female)</p>
+	 <button class="bt"> Shop</button>
+	   </div>
+	 </div>
+   
+   
+   <div class="image-contains">
+	 <img src="shoe  1.jpg" alt="male" width="190px">
+	 <div class="image-d">
+	   <p class="image-dc"> Classic Pair <br> (Male)</p>
+	<button class="bt"> Shop</button>
+	 </div>
+   </div>
+	
+	
+	
+	<div class="uni">
+	  <img src="uni.jpg" alt="uni" width="180px">
+	  <div class="uni-d">
+		<p class="uni-dd"> Designer Shoe<br> (Unisex)</p>
+		<button class="b"> Shop</button>
+	  </div>
+	</div>
+	
+	
+	
+	<h2 class="run"> RUNNING SHOES</h2>
+	<p class="run-d">Get the latest<strong> WARNING MGM</strong> Running Shoes! Check it out! We've got them in every color</p>
+	
+	
+	<div class="sneak">
+	  <img src="shoe 2.jpg" alt="sneak" width="200px">
+	  <div class="sneak-d">
+		<p class="sneak-dd"> White and Orange<br>(Unisex)</p>
+		<button class="b"> Shop</button>
+	  </div>
+	</div>
+	
+	
+	<div class="nike">
+	  <img src="shoe  1.jpg" alt="nike" width="210px">
+	  <div class="nike-2">
+		<p class="nike-des"> Black and White<br> (Unisex)</p>
+		<button class="b"> Shop</button>
+	  </div>
+	</div>
+	
+	
+	
+	<div class="find">
+	  <button class="bttn"> Find your Running Shoes</button>
+	</div>
+	
+	
+	<h2 class="pop"> Popular Now</h2>
+	<p class="row">scroll left for more...</p>
+	
+	<!--image-scroll-->
+	<div class="scroll-image">
+	  
+	  
+	  <div class="image-a">
+	  <img src="scrl.jpg" alt="scrl" width="190px">
+	  <p class="image-dde">WarningG FT Running Shoe<br>(Unisex)</p>
+	   <p class="prize">Prince:$115 </p>
+	  </div>
+	  
+	  
+	  <!--another-image-->
+	  <div class="image-b">
+		<img src="scrl2.jpg" alt="scrl2" width="190px">
+		<p class="image-r">BT Sneakers<br>(Unisex)</p>
+		<p class="prize">Price:$130 </p>
+	  </div>
+	  
+	 
+	  <!--another-image-->
+	  <div class="image-c">
+		<img src="IMG_E1461.JPG" alt="black" width="110px">
+		<p class="black-dsc">Sudden Wealth Athletic<br>(Male)</p>
+		<p class="prize">Price:$170</p>
+	  </div>
+	  
+	  
+	  <!--another-image-->
+	  <div class="image-d">
+		<img src="IMG_E1460.JPG" alt="xr" width="180px">
+		<div class="xr-dsc">
+		  <p class="xrr">Xr Wealth Athletic<br> (Male)</p>
+		  <p class="prize"> $200</p>
+		</div>
+	  </div>
+	</div>
+	
+	
+	<h2 class="trend"> Trending Now</h2>
+	<h1 class="trendd"> ALL NEW NIKE SMART SNEAKERS</h1>
+	
+	<div class="image-set">
+	  <img src="set.jpg" alt="set" width="220px">
+	  <button class="b"> Shop</button>
+	</div>
+	
+	
+	<h2 class="desg"> HEARD YOU LOVE DESIGNERS</h2>
+	
+	<div class="fem">
+	  <img src="shoe  1.jpg" alt="fem" width="190px">
+	  <div class="fem-des">
+		<p class="fem-a"> Suede Black Heels</p>
+		<button class="b"> Shop</button>
+	  </div>
+	</div>
+	
+	
+	<div class="fe">
+	  <img src="fe.jpg" alt="fe" width="190px">
+	  <div class="fe-d">
+		<p class="fe-dd"> Fabulous Stilettos</p>
+		<button class="b"> Shop</button>
+	  </div>
+	</div>
+	
+	<div class="female">
+	  <img src="shoe 2.jpg" alt="female" width="190px">
+	</div>
+	
+	
+	
+  </body>
+</html>
